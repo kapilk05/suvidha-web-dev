@@ -1,4 +1,4 @@
-import Nav from "./LandingPage/nav";
+import Nav from "./LandingPage/navbar/nav";
 
 export default function Pages(){
     return(
