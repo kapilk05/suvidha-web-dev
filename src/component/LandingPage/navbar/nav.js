@@ -1,6 +1,5 @@
 import { Info } from "./constant/navtext"
-import { Outlet, Link } from "react-router-dom";
-import Logo from "../../../images/suvidha_desktop_logo.png" 
+
 
 
 export default function Nav(){
@@ -8,22 +7,20 @@ export default function Nav(){
     
     return(
         <>
-        <div className="flex justify-between bg-black text-white opacity-70">
-            <div className="py-8 px-4 text-4xl">
-            <Link to="/"><h1>Suvidha foundation</h1></Link>
-               {/* <Link to="/"><img src={Logo}/></Link> */}
+        <div className="flex justify-between text-white ">
+            <div className="py-8 px-4 text-4xl Font">
+               <h1>Suvidha Foundation</h1>
             </div>
-            <div className="flex text-xl py-8 px-4 ">
+            <div className="flex">
+            <div className="flex  py-8 px-4 ">
             {Info.map((texts)=>(
-               <Link to={texts.src} className="px-4">{ texts.name }</Link>
+               <h1 className="px-4">{ texts.name } </h1>
             ))}
-            <Outlet/>
             </div>
-            <div className=" text-2xl bg-red-600">
-                <h1 className="mt-8 mx-12">Donation</h1>
+            <div className=" text-2xl ">
+                <h1 className="mt-4 mx-12"><button className="bg-red-400 px-8 py-2 rounded-full font-bold">Donation</button></h1>
             </div>
-
-            
+            </div>
         </div>
         </>
     )
