@@ -1,21 +1,27 @@
 const Info = [
     {
-        name : "About"
+        name : "About",
+        src: "/about"
     },
     {
-        name : " Support"
+        name : " Support",
+        src: "/support"
     },
     {
-        name : "News"
+        name : "News",
+        src: "/news"
     },
     {
-        name : " Events"
+        name : " Events",
+        src: "/events"
     },
     {
-        name : " Podcast"
+        name : " Podcast",
+        src: "/podcast"
     },
     {
-        name : " Contact"
+        name : " Contact",
+        src: "/contacts"
     },
 ]
 
