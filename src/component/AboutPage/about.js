@@ -1,17 +1,15 @@
 import Navbar from "../LandingPage/navbar/nav"
+import AboutHeader from "./AboutHeader"
+import AboutBody from "./AboutBody"
+import Footer from "./Footer"
 
 export default function About(){
     return(
         <>
+        <div className=" bg-fixed bg-cover bg-center ... bg-[url('./images/about-head.jpg')] w-full h-full"> 
         <Navbar/>
-        <main>
-        <h1>About Us</h1>
-        <div class="about">
-            <h2 class="tagline">Empowered youth can lift their entire families and communities out of poverty.</h2>
-            <div class="describe">
-                Suvidha Mahila Mandal is a non-profit organization working to impart education among the financially challenged sections to help them realize parity in education and strength of little minds in building a promising future. The organization has provisions of student internships, student mentorship and the scope to volunteer. Through these programmes, the organization aims to achieve the vision of imparting innovative education that stays with the students forever and equip them for the unforeseen future.
-            </div>
-        </div>
+        <AboutHeader/>
+        <AboutBody/>
 
         <div class="numbers"></div>
 
@@ -19,11 +17,13 @@ export default function About(){
 
         <div class="newsletter"></div>
 
-        <div class="contact-link">
-            <h3>Connect with us to impower woman and future of nation</h3>
-            <button type="button">Contact</button>
+        <div className="bg-white flex p-10 px-60">
+            <h3 className="flex-2 font-bold text-3xl">Connect with us to impower woman and future of nation</h3>
+            <button className="flex-1 bg-red-500 px-8 py-4 rounded-full text-base text-white font-bold mx-10" type="button">Contact</button>
         </div>
-        </main>
+        <Footer/>
+        </div>
+        
         </>
     )
 };
