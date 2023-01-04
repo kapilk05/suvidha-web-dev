@@ -1,4 +1,5 @@
 import { Info } from "./constant/navtext"
+import {Link } from "react-router-dom";
 
 
 
@@ -9,12 +10,12 @@ export default function Nav(){
         <>
         <div className="flex justify-between text-white bg-black">
             <div className="py-8 px-8 text-4xl Font">
-               <h1>Suvidha Foundation</h1>
+               <Link to="/">Suvidha Foundation</Link>
             </div>
             <div className="flex">
             <div className="flex  py-8 px-4 ">
             {Info.map((texts)=>(
-               <h1 className="px-4">{ texts.name } </h1>
+               <Link to={texts.src} className="px-4">{ texts.name } </Link>
             ))}
             </div>
             <div className=" text-2xl ">
