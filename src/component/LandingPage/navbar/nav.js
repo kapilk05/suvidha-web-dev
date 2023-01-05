@@ -8,12 +8,12 @@ export default function Nav(){
     
     return(
         <>
-        <div className="flex justify-between text-white bg-black">
+        <div className="flex justify-between text-white bg-transparent">
             <div className="py-8 px-8 text-4xl Font">
                <Link to="/">Suvidha Foundation</Link>
             </div>
             <div className="flex">
-            <div className="flex  py-8 px-4 ">
+            <div className="flex text-lg py-8 px-4 ">
             {Info.map((texts)=>(
                <Link to={texts.src} className="px-4">{ texts.name } </Link>
             ))}
