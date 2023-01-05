@@ -1,7 +1,7 @@
 export default function Footer(){
     return (
         <>
-            <div className="bg-black flex text-white p-32 space-x-8 text-left">
+            <div className="bg-black flex text-white px-52 py-32 space-x-8 text-left">
                 <div className="flex-1">
                     <h3 className="font-bold py-4 text-xl">About Us</h3>
                     <h4>
