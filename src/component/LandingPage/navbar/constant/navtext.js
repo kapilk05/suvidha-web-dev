@@ -16,10 +16,6 @@ const Info = [
         src: "/events"
     },
     {
-        name : " Podcast",
-        src: "/podcast"
-    },
-    {
         name : " Contact",
         src: "/contacts"
     },

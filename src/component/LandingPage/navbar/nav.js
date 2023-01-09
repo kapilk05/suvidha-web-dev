@@ -8,7 +8,7 @@ export default function Nav(){
     
     return(
         <>
-        <div className="flex justify-between text-white bg-transparent">
+        <div className="flex fixed w-full justify-between text-white bg-black">
             <div className="py-8 px-8 text-4xl Font">
                <Link to="/">Suvidha Foundation</Link>
             </div>
