@@ -17,7 +17,7 @@ const Info = [
     },
     {
         name : " Contact",
-        src: "/contacts"
+        src: "/contact"
     },
 ]
 
