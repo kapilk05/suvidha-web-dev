@@ -1,7 +1,7 @@
 import Navbar from "../LandingPage/navbar/nav"
 import SupportHeader from "./SupportHeader"
 import SupportBody from "./SupportBody"
-import SupportGrid from "./SupportGrid"
+import SupportWork from "./SupportWork"
 import Footer from "./Footer"
 
 export default function About(){
@@ -11,7 +11,7 @@ export default function About(){
         <Navbar/>
         <SupportHeader/>
         <SupportBody/>
-        <SupportGrid/>
+        <SupportWork/>
 
         <div className="bg-gray-100 flex px-52 py-20">
             <h3 className="flex-2 font-bold text-2xl">Connect with us to empower woman and future generation</h3>
