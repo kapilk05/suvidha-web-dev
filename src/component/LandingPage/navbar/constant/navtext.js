@@ -8,8 +8,8 @@ const Info = [
         src: "/support"
     },
     {
-        name : "News",
-        src: "/news"
+        name : "Blogs",
+        src: "/blogs"
     },
     {
         name : " Events",
