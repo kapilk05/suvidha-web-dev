@@ -1,37 +1,52 @@
 import Navbar from "../LandingPage/navbar/nav"
+import "./contact.css";
 
 
 export default function Contact(){
     return(
         <>
         <Navbar/>
-        <div className="p-52">
-        <h1>Contact Us</h1>
-        <div className="container">
-    <h2>Send a Message</h2>
+        <div className="pt-52">
+        <h1 style={{marginLeft:6 + "%"}}>Send a Message <i className="fa fa-telegram" style={{fontSize:36 + "px", color:"blue"}}></i></h1>
 
-    <br/>
-    <form method="post">
-        <label for="fname">First Name : </label><input type="text" name="fname" id="fname" placeholder="Enter First Name" required/><br/>
-        <label for="lname">Last Name : </label><input type="text" name="lname" id="lname" placeholder="Enter Last Name" required/><br/>
-        <label for="email">Email : </label><input type="email" name="email" id="email" placeholder="Enter Email" required/><br/>
-        <label for="mob">Mobile Number : </label><input type="text" name="mob" id="mob" placeholder="Enter Mobile Number" required/><br/>
-        <label for="mess">Message : </label><textarea id="mess" name="mess" rows="10" cols="50" placeholder="Write Your Message Here :)" required></textarea><br/>
-        <input type="Submit" value="Send" name="send" id="send"/>
-    </form>
-    </div>
-    <div class="contact">
-    <h2>Contact Info</h2><br/>
-    <i class="material-icons">place</i>H.No. 1951, W.N.4, Khaperkheda, Saoner, Nagpur<br/>
-    <i class="material-icons">email</i>info@suvidhafoundationedutech.org<br/>
-    <i class="material-icons">phone</i>+91 7020044091<br/>
-    <h2>Follow Us</h2>
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    </div>
-    </div>
+            <div className="container">
+            <form method="post">
+                <label htmlFor="fname">First Name</label><br/>
+                <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required/><br/>
+                <label htmlFor="lname">Last Name</label><br/>
+                <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" required/><br/>
+                <label htmlFor="email">Email</label><br/>
+                <input type="text" id="email" name="email" placeholder="Enter Your Email" required/><br/>
+                <label htmlFor="mob">Mobile Number</label><br/>
+                <input type="text" id="mob" name="mob" placeholder="Enter Your Mobile Number" required/><br/>
+                <label htmlFor="mob">Message</label><br/>
+                <textarea id="mess" name="mess" placeholder="Write Your Message Here :)" style={{height:200 + "px"}}/><br/>
+                <input type="submit" value="Submit"/>
+            </form>
+            </div>
+
+            <div className="container2">
+                <h1>Contact Us</h1>
+                <i className="fa fa-map-marker" aria-hidden="true"></i> H.no 1951, W.N.4, Khaperkheda,Saoner,Nagpur<br/><br/><br/>
+                <i className="fa fa-envelope" aria-hidden="true"></i> info@suvidhafoundationedutech.org<br/><br/><br/>
+                <i className="fa fa-phone" aria-hidden="true"></i> +91 7020044091<br/><br/><br/>
+                <h2 style={{textAlign:"center"}}>Follow us on</h2>
+                <div className="icons">
+                <a href="#" className="fb btn">
+                    <i className="fa fa-facebook fa-fw"></i> 
+                </a>
+                <a href="#" className="instagram btn">
+                    <i className="fa fa-instagram fa-fw"></i> 
+                </a>
+                <a href="#" className="linkedin btn"><i className="fa fa-linkedin fa-fw">
+                    </i> 
+                </a>
+                </div>
+            </div>
+            </div>
 
         </>
     )
-};
+}
+// style="font-size:24px"
+// 

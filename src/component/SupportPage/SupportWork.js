@@ -2,7 +2,7 @@ import Challenges from "./Challenges"
 
 export default function SupportWork(){
     return (<>
-        <div className="bg-gray-100 p-20 text-center">
+        <div className="bg-yellow-50 p-20 text-center">
         <p className="font-semibold text-2xl pb-2">Services</p>
         <p className="font-bold text-3xl pb-4">Challenges we are working on.</p>
         <Challenges/>

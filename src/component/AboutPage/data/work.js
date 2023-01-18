@@ -1,34 +1,42 @@
 const work =[
     {
-        src: "./images/work-icons/internship.png",
+        id: 1,
+        src: "./images/About/work-icons/internship.png",
         title: "Student Internship"
     },
     {
-        src: "./images/work-icons/mentorship.png",
+        id:2,
+        src: "./images/About/work-icons/mentorship.png",
         title: "Student Mentorship"
     },
     {
-        src: "./images/work-icons/workshop.png",
+        id:3,
+        src: "./images/About/work-icons/workshop.png",
         title: "Workshops"
     },
     {
-        src: "./images/work-icons/woman.png",
+        id:4,
+        src: "./images/About/work-icons/woman.png",
         title: "Woman Empowerment"
     },
     {
-        src: "./images/work-icons/free-education.png",
+        id: 5,
+        src: "./images/About/work-icons/free-education.png",
         title: "Free Education"
     },
     {
-        src: "./images/work-icons/food.png",
+        id: 6,
+        src: "./images/About/work-icons/food.png",
         title: "Food for homeless"
     },
     {
-        src: "./images/work-icons/dog.png",
+        id: 7,
+        src: "./images/About/work-icons/dog.png",
         title: "Food for stray dogs"
     }, 
     {
-        src: "./images/work-icons/clothe.png",
+        id: 8,
+        src: "./images/About/work-icons/clothe.png",
         title: "Clothes Donation"
     }
 ]

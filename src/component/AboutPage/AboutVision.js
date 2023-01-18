@@ -1,7 +1,7 @@
 export default function AboutVision(){
     return (
         <>
-            <div className="bg-white p-52 p-52">
+            <div className="bg-white p-20  text-justify break-all  xl:p-52">
                 <h2 className="text-4xl text-blue-700 pb-4">Our Vision </h2>
                 <p className="text-xl text-gray-500 pb-10">
                 To build Next Generation Entrepreneur, by providing them a Skill-Based Education.To Provide Internship, Training And Workshops and Quality Education All Over The World..

@@ -7,15 +7,15 @@ import Footer from "./Footer"
 export default function About(){
     return(
         <>
-        <div className="bg-fixed bg-cover bg-center ... bg-[url('./images/support-head.jpg')] w-full h-full"> 
         <Navbar/>
+        <div className="bg-fixed bg-cover bg-clip-content... bg-[url('./images/Support/backImg.png')] w-full h-full"> 
         <SupportHeader/>
         <SupportBody/>
         <SupportWork/>
 
-        <div className="bg-gray-100 flex px-52 py-20">
+        <div className="bg-yellow-50 flex flex-wrap space-y-10 p-20  xl:px-52 xl:space-y-0">
             <h3 className="flex-2 font-bold text-2xl">Connect with us to empower woman and future generation</h3>
-            <button className="flex-1 bg-red-500 py-4 rounded-full text-xl text-white font-bold mx-20" type="button">Contact</button>
+            <button className="flex-1 bg-red-500 px-8 py-4 rounded-full text-base text-white font-bold xl:mx-10" type="button">Contact</button>
         </div>
         <Footer/>
         </div>
