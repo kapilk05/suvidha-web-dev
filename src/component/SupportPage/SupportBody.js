@@ -1,7 +1,7 @@
 export default function SupportBody(){
     return(
         <>
-            <div className="bg-yellow-50 p-10 xl:p-40">
+            <div className="bg-white p-10 xl:p-40">
                 <div className="flex flex-wrap xl:flex-nowrap xl:space-x-32 w-full">
                     <div className="flex-1 font-normal w-3/5 leading-loosed">
                     <p className="font-bold text-xl pb-2">What we do</p>

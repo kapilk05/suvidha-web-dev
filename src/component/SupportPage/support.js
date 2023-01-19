@@ -2,7 +2,7 @@ import Navbar from "../LandingPage/navbar/nav"
 import SupportHeader from "./SupportHeader"
 import SupportBody from "./SupportBody"
 import SupportWork from "./SupportWork"
-import Footer from "./Footer"
+import Footer from "../AboutPage/Footer"
 
 export default function About(){
     return(
@@ -13,7 +13,7 @@ export default function About(){
         <SupportBody/>
         <SupportWork/>
 
-        <div className="bg-yellow-50 flex flex-wrap space-y-10 p-20  xl:px-52 xl:space-y-0">
+        <div className="bg-white flex flex-wrap space-y-10 p-20  xl:px-52 xl:space-y-0">
             <h3 className="flex-2 font-bold text-2xl">Connect with us to empower woman and future generation</h3>
             <button className="flex-1 bg-red-500 px-8 py-4 rounded-full text-base text-white font-bold xl:mx-10" type="button">Contact</button>
         </div>
