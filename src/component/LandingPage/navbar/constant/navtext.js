@@ -10,9 +10,9 @@ const Info = [
         src: "/support"
     },
     {
-        id: 3,
-        name : "News",
-        src: "/news"
+
+        name : "Blogs",
+        src: "/blogs"
     },
     {
         id: 4,

@@ -8,7 +8,8 @@ import AboutVision from "./AboutVision"
 export default function About(){
     return(
         <>
-        <div className="w-full bg-fixed bg-cover ... bg-[url('./images/About/BackImg.jpg')] h-full"> 
+
+        <div className="w-full bg-fixed bg-cover ... bg-[url('./images/About/BackImg.jpg')] h-full">
         <Navbar/>
         <AboutHeader/>
         <AboutBody/>
