@@ -1,41 +1,48 @@
-export default function Footer(){
-     return(
-        <>
-          <div className="py-24 bg-zinc-700">
-            <div className="flex justify-center text-white px-96 gap-16">
-              <div className="">
-                <h1 className="text-2xl pb-4">About</h1>
-                <p className="pb-4">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.</p>
-                <p className="">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit nam nec tellus a odio tincidunt auctor a ornare conubia nostra.</p>
-                <h1 className="pt-44">Copyright © 2023 Suvidha Foundation</h1>
-              </div>
-              
-              <div>
-                <h1 className="text-2xl pb-4">Services</h1>
-                <p> Study nature
-                    Nature is a gift
-                    A second spring
-                    Smiles of nature
-                    Just let it rain  
-                </p>
-              </div>
-              <div>
-                <h1 className="text-2xl pb-4">Contact</h1>
-                <p>Proin gravida nibh auctor aliquet amet anean sollicitudin, lorem quis.</p>
-                <p>12 Avenue, New York, NY 10160
-                   +1 910-626-85255
-                   contact@nature.com</p>
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faFacebook,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
 
-                   <h1 className="text-2xl pt-32">Powered by Suvidha Foundation</h1>
-              </div>
-
-
-            </div>
-          </div>
-        
-        
-        </>
-     )
-
-
+export default function Footer() {
+  return (
+    <>
+      <div className="bg-black flex flex-wrap text-white py-24 px-10 xl:space-x-8 text-left xl:space-x-10">
+        <div className="flex-1 w-full p-4 md:w-1/2 lg:w-2/5">
+          <h3 className="py-4 w-56">
+            <img
+              src="./images/navbar-logo/suvidha_desktop_logo.png"
+              alt="logo"
+            />
+          </h3>
+          <h4>
+            Suvidha Mahila Mandal is a non-profit organization working to impart
+            education among the financially challenged sections to help them
+            realize parity in education and strength of little minds in building
+            a promising future.
+          </h4>
+        </div>
+        <div className="w-full p-4 pt-10 md:w-1/2 lg:w-1/5">
+          <h3 className="font-bold py-4 text-xl">Our Links</h3>
+          <h2 className="text-gray-100">Home</h2>
+          <h2>About</h2>
+          <h2>News</h2>
+          <h2>Support</h2>
+          <h2>Gallery</h2>
+        </div>
+        <div className="w-full p-4 md:w-1/2 lg:w-1/5">
+          <h3 className="font-bold py-4 text-xl">Quick Links</h3>
+          <h2>Code of Conduct</h2>
+          <h2>Privacy Policy</h2>
+        </div>
+        <div className="space-x-5 w-full p-2 md:w-1/2 lg:w-1/5">
+          <h3 className="font-bold py-4 text-xl">Follow Us</h3>
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faLinkedinIn} />
+        </div>
+      </div>
+    </>
+  );
 }
